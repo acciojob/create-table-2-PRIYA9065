@@ -12,7 +12,7 @@ function createTable() {
 		    const row = mytable.insertRow(i);
 			for(let j = 0; j < columns; j++){
 				const column = row.insertCell(j);
-				column.innerHTML = "Row-" + (i) + "Column-" + (j);
+				column.innerHTML = "Row-" + (i ) + "Column-" + (j );
 			}
 		}
 	}
